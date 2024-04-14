@@ -146,9 +146,9 @@
                     <m:ObjectStatus
                         xmlns="sap.m"
                         id="_IDGenObjectStatus1"
-                        text="{ path:'Status', formatter:'.statusProduto'}"
-                        state="{ path:'Status', formatter:'.stateProduto'}"
-                        icon="{ path:'Status', formatter:'.iconProduto'}"
+                        text="{ path:'Status', formatter:'.objFormatter.statusProduto'}"
+                        state="{ path:'Status', formatter:'.objFormatter.stateProduto'}"
+                        icon="{ path:'Status', formatter:'.objFormatter.iconProduto'}"
                         class="sapMObjectStatusLarge"
                     />
                 </m:VBox>
@@ -193,7 +193,7 @@
                         />
                         <m:Link
                             id="_IDGenLink6"
-                            text="{ path: 'Createdat', formatter: '.date'}"
+                            text="{ path: 'Createdat', formatter: '.objFormatter.date'}"
                         />
                     </m:HBox>
                     <m:HBox id="_IDGenHBox6">
@@ -215,7 +215,7 @@
                         />
                         <m:Link
                             id="_IDGenLink8"
-                            text="{ path:'Changedat', formatter:'.date'}"
+                            text="{ path:'Changedat', formatter:'.objFormatter.date'}"
                         />
                     </m:HBox>
                 </m:VBox>
@@ -325,7 +325,7 @@
                                     />
                                     <m:Text
                                         id="_IDGenText8"
-                                        text="{ path:'Weightmeasure', formatter:'.floatNumber'} "
+                                        text="{ path:'Weightmeasure', formatter:'.objFormatter.floatNumber'} "
                                         class="sapMObjectNumberMedium"
                                     />
                                     <m:Label
@@ -343,7 +343,7 @@
                                     />
                                     <m:Text
                                         id="_IDGenText10"
-                                        text="{ path:'Width', formatter:'.floatNumber'}"
+                                        text="{ path:'Width', formatter:'.objFormatter.floatNumber'}"
                                         class="sapMObjectNumberMedium"
                                     />
                                     <m:Label
@@ -352,7 +352,7 @@
                                     />
                                     <m:Text
                                         id="_IDGenText11"
-                                        text="{ path:'Depth', formatter:'.floatNumber'}"
+                                        text="{ path:'Depth', formatter:'.objFormatter.floatNumber'}"
                                         class="sapMObjectNumberMedium"
                                     />
                                     <m:Label
@@ -361,7 +361,7 @@
                                     />
                                     <m:Text
                                         id="_IDGenText12"
-                                        text="{ path:'Height', formatter:'.floatNumber'}"
+                                        text="{ path:'Height', formatter:'.objFormatter.floatNumber'}"
                                         class="sapMObjectNumberMedium"
                                     />
                                     <m:Label
